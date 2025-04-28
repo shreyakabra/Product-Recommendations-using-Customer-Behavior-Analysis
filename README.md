@@ -126,7 +126,8 @@ Fallback to **Cold Start** if no suitable category found.
 │   ├── olist_geolocation_dataset.csv
 │   └── ... (other datasets)
 ├── main.py               # Backend API code (FastAPI)
-├── app.py (optional)     # Frontend UI (Streamlit)
+├── app.py                # Frontend UI (Streamlit) (ARM)
+├── apps.py               # Frontend UI (Streamlit) (Markov Chain)
 ├── README.md             # Project description
 ├── requirements.txt      # Python dependencies
 ```
